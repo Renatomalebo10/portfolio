@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Renato Malebo | Portfólio Profissional - Front-end & React</title>
+    <link rel="stylesheet" href="estiloPortifolio.css">
+</head>
+<body class="tema-escuro">
+    <header class="cabecalho">
+        <div class="container">
+            <div class="barra-navegacao">
+                <div class="logo">RM Portfólio</div>
+                <ul class="menu-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="botoes-tema">
+                    <button class="botao-tema" id="botao-preto">⚫ Preto</button>
+                    <button class="botao-tema" id="botao-branco">⚪ Branco</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="secao">
+            <div class="container hero">
+                <div class="conteudo-hero">
+                    <span class="etiqueta-hero"><i class="fas fa-code"></i>desenvolvedor Front-end</span>
+                    <h1 class="titulo-hero">Criando interfaces <span class="destaque-gradiente">modernas e performáticas</span></h1>
+                    <p class="descricao-hero">Olá, sou Renato Malebo — desenvolvedor focado em resolver problemas e experiências digitais incríveis. Transformo designs em código limpo e responsivo.</p>
+                    <div class="lista-tecnologias">
+                        <span class="badge-tecnologia"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+                        <span class="badge-tecnologia"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="badge-tecnologia"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="badge-tecnologia"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="badge-tecnologia"><i class="fab fa-react"></i> React / Next.js</span>
+                    </div>
+                    <div class="grupo-botoes">
+                        <a href="#projetos" class="botao-principal"><i class="fas fa-play-circle"></i> Ver projetos</a>
+                        <a href="#contato" class="botao-secundario"><i class="fas fa-envelope"></i> Entrar em contato</a>
+                    </div>
+                </div>
+                <div class="avatar-hero">
+                    <div class="circulo-avatar">
+                        <img src="img/IMG-20260417-WA0000.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="secao">
+            <div class="container">
+                <h2 class="titulo-secao">Minhas tecnologias principais</h2>
+                <div class="grade-habilidades">
+                    <div class="card-habilidade"><i class="fab fa-git-alt"></i><h3>Git & GitHub</h3><p>Versionamento e colaboração</p></div>
+                    <div class="card-habilidade"><i class="fab fa-html5"></i><h3>HTML5</h3><p>Semântica e acessibilidade</p></div>
+                    <div class="card-habilidade"><i class="fab fa-css3-alt"></i><h3>CSS3</h3><p>Flexbox, Grid, Animações</p></div>
+                    <div class="card-habilidade"><i class="fab fa-js"></i><h3>JavaScript</h3><p>ES6+, Manipulação do DOM</p></div>
+                    <div class="card-habilidade"><i class="fab fa-react"></i><h3>React & Next.js</h3><p>Componentes, SSR, Hooks</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO PROJETOS COM VÍDEOS QUE SÓ TOCAM AO CLICAR -->
+        <section id="projetos" class="secao">
+            <div class="container">
+                <h2 class="titulo-secao">Projetos em destaque (clique no vídeo para assistir)</h2>
+                <div class="grade-projetos" id="grade-projetos">
+                    <div class="card-projeto">
+                        <div class="container-video-projeto" id="container-video-1">
+                            <video id="video-projeto-1" preload="metadata" muted>
+                                <source src="videos/Gravação de ecrã a partir de 2026-04-21 01-55-21.webm" type="video/mp4">
+                            </video>
+                            <div class="overlay-play"><i class="fas fa-play-circle"></i></div>
+                        </div>
+                        <div class="info-projeto">
+                            <h3>QR</h3>
+                            <p>O trabalho facíl feito com Html5 e css total mente responsivo.</p>
+                            <div class="tags-projeto"><span class="tag">Html5</span><span class="tag">Css3</span></div>
+                        </div>
+                    </div>
+                    <div class="card-projeto">
+                        <div class="container-video-projeto" id="container-video-2">
+                            <video id="video-projeto-2" preload="metadata" muted>
+                                <source src="videos/Gravação de ecrã a partir de 2026-04-21 02-01-01.webm" type="video/mp4">
+                            </video>
+                            <div class="overlay-play"><i class="fas fa-play-circle"></i></div>
+                        </div>
+                        <div class="info-projeto">
+                            <h3>RM Portfólio</h3>
+                            <p>RM Portfólio profissional onde encontras tudo sobre mim totalmente responsivo.</p>
+                            <div class="tags-projeto"><span class="tag">Html5</span><span class="tag">Css3</span><span class="tag">Js</span></div>
+                        </div>
+                    </div>
+                    <div class="card-projeto">
+                        <div class="container-video-projeto" id="container-video-3">
+                            <video id="video-projeto-3" preload="metadata" muted>
+                                <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" type="video/mp4">
+                            </video>
+                            <div class="overlay-play"><i class="fas fa-play-circle"></i></div>
+                        </div>
+                        <div class="info-projeto">
+                            <h3>Portfólio Criativo</h3>
+                            <p>Site pessoal com animações, tema dinâmico e design responsivo desenvolvido com Next.js.</p>
+                            <div class="tags-projeto"><span class="tag">Next.js</span><span class="tag">Framer Motion</span><span class="tag">Styled Components</span><span class="tag">Responsivo</span></div>
+                        </div>
+                    </div>
+                </div>
+                <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; opacity: 0.7;"><i class="fas fa-mouse-pointer"></i> Dica: Clique em qualquer vídeo para assistir à demonstração do projeto!</p>
+            </div>
+        </section>
+
+        <section id="contato" class="secao">
+            <div class="container area-contato">
+                <div class="info-contato">
+                    <h2 class="titulo-secao" style="margin-bottom: 1.5rem;">Vamos construir algo incrível</h2>
+                    <p style="margin-bottom: 2rem;">Disponível para oportunidades, freelas e parcerias. Sua mensagem chegará diretamente ao meu e-mail.</p>
+                    <div class="item-contato"><i class="fas fa-envelope"></i> <span>renatomalebo73@gmail.com</span></div>
+                    <div class="item-contato"><i class="fas fa-phone-alt"></i> <span>+244 (923) 456-789</span></div>
+                    <div class="item-contato"><i class="fas fa-map-marker-alt"></i> <span>Luanda, Angola</span></div>
+                    <div class="redes-sociais">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="formulario-contato">
+                    <h3 style="margin-bottom: 1rem;"><i class="fas fa-paper-plane"></i> Envie uma mensagem</h3>
+                    <form id="formulario-contato">
+                        <input type="text" id="nome-contato" placeholder="Seu nome completo" required>
+                        <input type="email" id="email-contato" placeholder="Seu e-mail" required>
+                        <input type="text" id="assunto-contato" placeholder="Assunto">
+                        <textarea id="mensagem-contato" rows="4" placeholder="Descreva sua ideia ou projeto..." required></textarea>
+                        <button type="submit" class="botao-principal" style="width:100%;"><i class="fas fa-envelope"></i> Enviar mensagem</button>
+                        <p style="font-size:0.7rem; margin-top: 12px; text-align:center;">*Sua mensagem será enviada para renatomalebo73@gmail.com</p>
+                    </form>
+                    <div id="status-formulario" style="margin-top: 12px; text-align:center; font-size:0.85rem;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="container">
+            <p>© 2025 Renato Malebo — Portfólio profissional | Html5 • CSS3 • JavaScript</p>
+            <p style="margin-top: 0.4rem; opacity:0.7;">Clique nos vídeos para ver demonstrações dos projetos</p>
+        </div>
+    </footer>
+
+    <script src="Portifolio.js"></script>
+</body>
+</html>
