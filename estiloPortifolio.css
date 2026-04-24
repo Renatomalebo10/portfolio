@@ -226,6 +226,10 @@
             flex-wrap: wrap;
         }
 
+        .grupo-botoes .botao-secundario{
+            text-decoration: none;
+        }
+
         .botao-principal {
             background: #3b82f6;
             color: white;
